@@ -1,5 +1,5 @@
 {
-    "id": "GitVersion",
+    "id": "gitversion",
     "version": "1.0.0",
     "name": "GitVersion",
     "documentationURL": "https://github.com/devbost/devcontainer-features/tree/main/src/gitversion",
