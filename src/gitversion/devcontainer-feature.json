@@ -1,6 +1,6 @@
 {
     "id": "GitVersion",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "GitVersion",
     "documentationURL": "https://github.com/devbost/devcontainer-features/tree/main/src/gitversion",
     "description": "GitVersion is a tool that generates a Semantic Version number based on your Git history",

@@ -18,7 +18,7 @@ https://gitversion.net/
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of GitVersion.Tool to install (Available versions here: https://www.nuget.org/packages/GitVersion.Tool/#versions-body-tab) | string | latest |
+| version | Version of GitVersion.Tool to install [(Available versions)](https://www.nuget.org/packages/GitVersion.Tool/#versions-body-tab) | string | latest |
 
 ---
 
