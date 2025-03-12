@@ -1,0 +1,24 @@
+{
+    "id": "GitVersion",
+    "version": "1.0.0",
+    "name": "GitVersion",
+    "documentationURL": "https://github.com/devbost/devcontainer-features/tree/main/src/gitversion",
+    "description": "GitVersion is a tool that generates a Semantic Version number based on your Git history",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest",
+                "6.1.0",
+                "5.12.0"
+            ],
+            "type": "string"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/dotnet:2": {
+            "version": "latest"
+        }
+    }
+}
