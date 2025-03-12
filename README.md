@@ -3,4 +3,4 @@
 ## Contents
 
 This repository contains following features:
-- [gitvrsion](./src/gitversion/README.md): Install GitVersion CLI
+- [gitversion](./src/gitversion/README.md): Install GitVersion CLI
