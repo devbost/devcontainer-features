@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 if [ -z "${VERSION}" ]; then
-	VERSION=latest
+	VERSION="latest"
 fi
 
 if [ "${VERSION}" == "latest" ]; then
