@@ -9,7 +9,7 @@ fi
 
 # Install the tool
 echo "Installing GitVersion ${versionStr}..."
-dotnet tool install --global GitVersion.Tool --version ${versionStr} --tool-path /usr/bin --verbosity diag
+dotnet tool install GitVersion.Tool --version ${versionStr} --tool-path /usr/bin --verbosity diag
 
 # Create a symbolic link to the tool
 ln -s /usr/bin/dotnet-gitversion /usr/bin/gitversion
