@@ -8,7 +8,7 @@ https://gitversion.net/
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/gitversion:1": {
+    "ghcr.io/devbost/devcontainer-features/gitversion:1": {
         "version": "latest"
     }
 }
