@@ -14,6 +14,13 @@ echo "Installing GitVersion ${versionStr}..."
 
 dotnet tool install --global GitVersion.Tool --version ${versionStr} --verbosity diag
 
+# Verify installation
+echo "Verifying GitVersion installation..."
+if ! dotnet-gitversion --version >/dev/null 2>&1; then
+    echo "ERROR: GitVersion installation verification failed. The 'dotnet-gitversion' command is not working."
+    exit 1
+fi
+
 # Set up shell alias
 echo "Setting up shell alias for gitversion..."
 
